@@ -135,3 +135,19 @@ header nav a:hover {
   border-radius: 24px;
   background-color: var(--bg-light);
 }
+
+#featured-item1 .featured-btn {
+  background-color: #709acb;
+}
+
+#featured-item1 .besttoday-text {
+  background-color: #709acb;
+}
+
+#featured-item2 .featured-btn {
+  background-color: #3fbb13;
+}
+
+#featured-item2 .besttoday-text {
+  background-color: #3fbb13;
+}

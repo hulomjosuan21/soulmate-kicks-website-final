@@ -19,12 +19,60 @@
   width: 80vw;
   height: 60vh;
   margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
   position: relative;
   border-radius: 48px;
   box-shadow: var(--box-shadow1);
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.featured-info {
+  flex: 1;
+  margin-bottom: 3rem;
+}
+
+.introducing-text {
+  font-size: large;
+  text-align: center;
+  color: var(--text-dark);
+  opacity: 0.8;
+}
+
+.featured-item-name {
+  text-align: center;
+  font-weight: 900;
+  font-size: x-large;
+  color: var(--text-dark);
+}
+
+.featured-item-price {
+  text-align: center;
+  font-size: large;
+  color: var(--text-dark);
+}
+
+.featured-img {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 48px;
+}
+
+.featured-img img {
+  width: 80%;
+}
+
+.star-rating-container {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.star-rating-container i {
+  font-size: large;
+  color: var(--text-dark);
 }
 
 .featured-slide:nth-child(1) {
@@ -163,4 +211,35 @@
 
 .modal-list-op:hover {
   background-color: var(--bg-light-hover);
+}
+
+.featured-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 24px;
+  border: none;
+  font-size: 2rem;
+  width: 8rem;
+  height: 6rem;
+  transition: opacity 0.4s ease;
+}
+
+.featured-btn i {
+  color: var(--text-light-static);
+}
+
+.featured-btn:hover {
+  opacity: 0.8;
+}
+
+.besttoday-text {
+  position: absolute;
+  bottom: 2rem;
+  font-size: small;
+  right: 2rem;
+  font-weight: 600;
+  border-radius: 6px;
+  color: var(--text-light-static);
+  padding: 0.2rem 0.5rem;
 }
