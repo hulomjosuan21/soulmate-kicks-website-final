@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: calc(1em + 0.5rem);
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+:root {
+  --primary-margin: 2rem;
+  --hover-animation: all 0.5s ease;
+
+  --bg-red100: #ffdddd;
+
+  --text-light-static: #f4f4f5;
+
+  --clr-blue-static: #709acb;
+
+  --items-count: 4;
+
+  --box-shadow1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body, html {
+  font-family: 'Raleway';
+  overflow-x: hidden;
+  background-color: var(--bg-light);
+}
+
+.theme-light {
+  --bg-dark: #1f1d2b;
+  --bg-sub-dark: #252836;
+
+  --bg-light: #ffffff;
+  --bg-sub-light: #f3f3f8;
+
+  --text-dark: #27272a;
+  --text-sub-dark: #71717a;
+  --bg-line-dark: #d4d4d8;
+
+  --text-light: #f4f4f5;
+  --text-sub-light: #a1a1aa;
+  --bg-line-light: #52525b;
+
+  --bg-dark-hover: #fb070a;
+  --bg-light-hover: #ff9697;
+}
+
+.theme-dark {
+  --bg-light: #1f1d2b;
+  --bg-sub-light: #252836;
+
+  --bg-dark: #ffffff;
+  --bg-sub-dark: #f3f3f8;
+
+  --text-light: #27272a;
+  --text-sub-light: #71717a;
+  --bg-line-light: #d4d4d8;
+
+  --text-dark: #f4f4f5;
+  --text-sub-dark: #a1a1aa;
+  --bg-line-dark: #52525b;
+
+  --bg-light-hover: #fb070a;
+  --bg-dark-hover: #ff9697;
+}
+
+.home-item__contaner {
+  padding-top: 12vh;
+}
+
+.home-item__contaner section {
+  margin: 0 4rem;
+  background-color: var(--bg-sub-light);
+  border-radius: 36px;
+}
+
+.items-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 18rem));
+  gap: 4rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  justify-content: center;
+}
+
+.new-items {
+  height: 18rem;
+  border: 2px solid black;
+  background-color: green;
+}
