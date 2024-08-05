@@ -131,7 +131,7 @@
 
 .modal-list {
   position: relative;
-  width: 24rem;
+  width: 50vw;
   height: 18rem;
   background-color: var(--bg-light);
   top: 50%;
