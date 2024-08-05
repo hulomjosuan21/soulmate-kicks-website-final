@@ -7,6 +7,7 @@
   line-height: calc(1em + 0.5rem);
   scroll-behavior: smooth;
   text-decoration: none;
+  list-style: none;
 }
 
 :root {
@@ -68,8 +69,49 @@ body, html {
   --bg-dark-hover: #ff9697;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 75vw;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav a {
+  font-size: medium;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-dark);
+  padding: 0 0.5rem;
+  border-radius: 6px;
+  transition: background-color 0.4s ease;
+}
+
+header nav a:hover {
+  background-color: var(--bg-light-hover);
+}
+
+.header-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.logo-svg {
+  width: 8%;
+}
+
 .home-item__contaner {
-  padding-top: 12vh;
+  padding-top: 11vh;
 }
 
 .home-item__contaner section {
@@ -90,6 +132,6 @@ body, html {
 
 .new-items {
   height: 18rem;
-  border: 2px solid black;
-  background-color: green;
+  border-radius: 24px;
+  background-color: var(--bg-light);
 }

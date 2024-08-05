@@ -10,8 +10,37 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="utils.css">
   <link rel="stylesheet" href="media-queries.css">
+  <link rel="stylesheet" href="animate.css">
 </head>
 <body class="theme-dark">
+  <header>
+    <img src="./public/logo-1.svg" alt="logo-svg" class="logo-svg">
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#">Pricing</a>
+    </nav>
+
+    <div class="header-controls">
+      <button class="menu-btn">
+        <li class="bi bi-list"></li>
+      </button>
+      <button class="theme-btn">
+        <li class="bi bi-moon"></li>
+      </button>
+    </div>
+
+  </header>
+
+  <div class="overlay">
+    <article class="modal-list">
+      <button class="close-btn theme-btn"><i class="bi bi-x"></i></button>
+      <a href="#" class="modal-list-op">Home</a>
+      <a href="#about" class="modal-list-op">About</a>
+      <a href="pricing.html" class="modal-list-op">Pricing</a>
+    </article>
+  </div>
   <div class="bg-1"></div>
 
   <main>
@@ -42,5 +71,6 @@
     </article>
   </main>
 
+  <script type="module" src="./main.js" defer></script>
 </body>
 </html>

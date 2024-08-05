@@ -1,9 +1,10 @@
 .featured-slider {
   margin-top: 20vh;
   width: 100vw;
-  height: 61vh;
+  height: 62vh;
   position: relative;
   overflow: hidden;
+  padding: 0.5rem 0;
 }
 
 .featured-slide-container {
@@ -83,4 +84,83 @@
     transform: scale(1);
     opacity: 1;
   }
+}
+
+.menu-btn {
+  display: none;
+  text-align: center;
+  font-size: x-large;
+  background: none;
+  border: none;
+  color: var(--text-dark);
+  border-radius: 6px;
+  padding: 0 0.5rem;
+  transition: all 0.4s ease;
+}
+
+.menu-btn:hover {
+  background-color: var(--bg-light-hover);
+}
+
+.theme-btn {
+  text-align: center;
+  font-size: large;
+  background: none;
+  border: none;
+  color: var(--text-dark);
+  border-radius: 6px;
+  padding: 0 0.5rem;
+  transition: all 0.4s ease;
+}
+
+.theme-btn:hover {
+  background-color: var(--bg-light-hover);
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+}
+
+.modal-list {
+  position: relative;
+  width: 24rem;
+  height: 18rem;
+  background-color: var(--bg-light);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-content: center;
+  border-radius: 24px;
+  grid-gap: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.modal-list button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modal-list-op {
+  margin-right: 1.5rem;
+  width: 100%;
+  color: var(--text-dark);
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 6px;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+.modal-list-op:hover {
+  background-color: var(--bg-light-hover);
 }
