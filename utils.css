@@ -253,3 +253,33 @@
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+
+.messenger-direct {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  z-index: 2;
+  bottom: 1rem;
+  right: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--bg-sub-light);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: opacity 0.4s ease, scale 0.4s ease;
+}
+
+.messenger-direct:hover {
+  opacity: 0.6;
+  animation: 0;
+}
+
+.messenger-direct:active {
+  scale: 0.8;
+}
+
+.messenger-direct a {
+  font-size: x-large;
+  color: var(--text-dark);
+}

@@ -49,6 +49,10 @@
     font-size: small;
   }
 
+  footer p {
+    font-size: x-small;
+  }
+
   .featured-btn {
     border-top-right-radius: 24px;
     font-size: 1.5rem;

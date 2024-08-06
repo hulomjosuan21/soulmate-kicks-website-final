@@ -11,7 +11,7 @@
 }
 
 :root {
-
+  animate__slower: 10s;
   --bg-red100: #ffdddd;
 
   --text-light-static: #f4f4f5;
@@ -27,6 +27,10 @@ body, html {
   font-family: 'Raleway';
   overflow-x: hidden;
   background-color: var(--bg-light);
+}
+
+button {
+  cursor: pointer;
 }
 
 .theme-light {

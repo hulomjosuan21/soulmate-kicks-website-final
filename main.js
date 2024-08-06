@@ -23,3 +23,7 @@ document.querySelector('.close-btn').addEventListener('click', (event) => {
 document.getElementById('submit-btn').addEventListener('click', (event) => [
   event.preventDefault()
 ])
+
+document.querySelector('.item-imgs').addEventListener('click', (event) => {
+  this.classList.add('animate__animated animate__tada');
+})
