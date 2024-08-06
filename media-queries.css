@@ -68,6 +68,10 @@
     flex-direction: row;
   }
 
+  .menu-btn {
+    display: none;
+  }
+
   .featured-img {
     flex: 1;
     display: flex;
@@ -122,10 +126,6 @@
 @media only screen and (min-width: 480px) and (max-width: 688px) {
   .whats-new-text {
     font-size: medium;
-  }
-
-   .menu-btn {
-    display: block;
   }
 
   .home-item__contaner section {
