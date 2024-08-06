@@ -9,13 +9,16 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="utils.css">
   <link rel="stylesheet" href="media-queries.css">
   <link rel="stylesheet" href="animate.css">
 </head>
 <body class="theme-light">
-  <div class="messenger-direct animate__animated animate__bounce animate__infinite animate__slower">
+  <img src="./src/logos/nike-logo.svg" alt="" id="nike-logo">
+
+  <div class="messenger-direct">
     <a href="https://www.messenger.com/t/311553545365235">
       <i class="fa-brands fa-facebook-messenger"></i>
     </a>
@@ -46,8 +49,64 @@
     </article>
   </div>
 
-  <main class="pricing-container">
+  <div class="searchbar-wrapper">
+    <input type="text" placeholder="Search">
+  </div>
 
+  <main class="pricing-container">
+    <div class="label-discount">
+      <p data-aos="zoom-in-left">By 1 take 1 for 1,799</p>
+    </div>
+
+    <div class="item-wrapper">
+      <div class="boxes">
+        <img src="./src/shoes/jumpman-shoe.svg" alt="" data-aos="zoom-in-up">
+       <h2 data-aos="zoom-in-left">Shoe Name</h2>
+       <p data-aos="zoom-in-right">₱ 1000</p>
+       <i class="bi bi-heart"></i>
+      </div>
+
+      <div class="boxes">
+        <img src="./src/shoes/jumpman-shoe.svg" alt="" data-aos="zoom-in-up">
+        <h2 data-aos="zoom-in-left">Shoe Name</h2>
+        <p data-aos="zoom-in-right">₱ 1000</p>
+        <i class="bi bi-heart"></i>
+      </div>
+
+      <div class="boxes">
+        <img src="./src/shoes/jumpman-shoe.svg" alt="" data-aos="zoom-in-up">
+       <h2 data-aos="zoom-in-left">Shoe Name</h2>
+       <p data-aos="zoom-in-right">₱ 1000</p>
+       <i class="bi bi-heart"></i>
+      </div>
+    </div>
+
+    <div class="label-discount" id="label2">
+      <p data-aos="zoom-in-left">By 1 take 1 for 1,799</p>
+    </div>
+
+    <div class="item-wrapper">
+      <div class="boxes">
+        <img src="./src/shoes/jumpman-shoe.svg" alt="" data-aos="zoom-in-up">
+       <h2 data-aos="zoom-in-left">Shoe Name</h2>
+       <p data-aos="zoom-in-right">₱ 1000</p>
+       <i class="bi bi-heart"></i>
+      </div>
+
+      <div class="boxes">
+        <img src="./src/shoes/jumpman-shoe.svg" alt="" data-aos="zoom-in-up">
+        <h2 data-aos="zoom-in-left">Shoe Name</h2>
+        <p data-aos="zoom-in-right">₱ 1000</p>
+        <i class="bi bi-heart"></i>
+      </div>
+
+      <div class="boxes">
+        <img src="./src/shoes/jumpman-shoe.svg" alt="" data-aos="zoom-in-up">
+       <h2 data-aos="zoom-in-left">Shoe Name</h2>
+       <p data-aos="zoom-in-right">₱ 1000</p>
+       <i class="bi bi-heart"></i>
+      </div>
+    </div>
   </main>
 
   <footer>
@@ -72,7 +131,7 @@
           <i class="bi bi-instagram"></i>
         </a>
         <a href="https://www.tiktok.com/@soulmatekicks">
-          <i class="bi bi-tiktok"></i>
+          <i class="fa-brands fa-tiktok"></i>
         </a>
       </section>
     </article>

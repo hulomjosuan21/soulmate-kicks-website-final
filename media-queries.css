@@ -78,10 +78,6 @@
     margin-top: 0;
   }
 
-  .items-wrapper {
-    gap: 1rem;
-  }
-
   .about__container h1 {
     font-size: x-large;
   }
@@ -93,6 +89,10 @@
   }
   .about__container h1:nth-of-type(3) {
     font-size: medium;
+  }
+  #nike-logo {
+    left: 10%;
+    width: 80vw;
   }
 }
 
@@ -199,6 +199,10 @@
   .featured-item-price {
     font-size: large;
   }
+  #nike-logo {
+    left: 15%;
+    width: 70vw;
+  }
 }
 
 @media only screen and (min-width: 688px) and (max-width: 763px) {
@@ -214,11 +218,19 @@
   .items-wrapper {
     gap: 1rem;
   }
+  #nike-logo {
+    left: 15%;
+    width: 70vw;
+  }
 }
 
 @media only screen and (min-width: 763px) and (max-width: 992px) {
   .home-item__contaner section {
     margin: 0 2rem;
+  }
+
+  .boxes {
+    margin-top: 2rem;
   }
   header {
     width: 75vw;
@@ -228,6 +240,10 @@
   }
   .logo-svg {
     width: 10%;
+  }
+  #nike-logo {
+    left: 15%;
+    width: 70vw;
   }
 }
 
@@ -240,6 +256,11 @@
   }
   .logo-svg {
     width: 10%;
+  }
+
+  #nike-logo {
+    left: 15%;
+    width: 70vw;
   }
 }
 

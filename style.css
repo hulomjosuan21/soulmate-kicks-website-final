@@ -11,7 +11,6 @@
 }
 
 :root {
-  animate__slower: 10s;
   --bg-red100: #ffdddd;
 
   --text-light-static: #f4f4f5;
@@ -50,6 +49,9 @@ button {
 
   --bg-dark-hover: #fb070a;
   --bg-light-hover: #ff9697;
+
+  --logo-opacity-light: 5%;
+  --logo-opacity-dark: 10%;
 }
 
 .theme-dark {
@@ -69,6 +71,9 @@ button {
 
   --bg-light-hover: #fb070a;
   --bg-dark-hover: #ff9697;
+
+  --logo-opacity-dark: 5%;
+  --logo-opacity-light: 10%;
 }
 
 ::-webkit-scrollbar {
@@ -126,7 +131,7 @@ header nav a:hover {
 }
 
 .home-item__contaner {
-  padding-top: 11vh;
+  padding-top: 10vh;
 }
 
 .home-item__contaner section {
@@ -442,6 +447,72 @@ footer p {
   user-select: none;
 }
 
+.searchbar-wrapper {
+  margin-left: 10vw;
+  margin-right: 6vw;
+  margin-top: 20vh;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar-wrapper input {
+  color: var(--text-dark);
+  width: fit-content;
+  border-radius: 24px;
+  border: 0;
+  background-color: var(--bg-light);
+  font-size: large;
+  padding: 0.5rem 1rem;
+  box-shadow: var(--box-shadow1);
+}
+
 .pricing-container {
-  height: 100dvh;
+
+}
+
+.pricing-container .item-wrapper {
+  display: grid;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 16rem));
+  grid-gap: 4rem;
+}
+
+.boxes {
+  height: 14rem;
+  background-color: var(--bg-sub-light);
+  border-radius: 24px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.boxes h2 {
+  font-weight: 900;
+  color: var(--text-dark);
+}
+
+.boxes p {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.boxes img {
+  position: absolute;
+  top: -5rem;
+  width: 70%;
+}
+
+.boxes i {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: large;
+  color: var(--text-dark);
 }

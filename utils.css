@@ -1,7 +1,7 @@
 .featured-slider {
   margin-top: 20vh;
   width: 100vw;
-  height: 62vh;
+  height: 63vh;
   position: relative;
   overflow: hidden;
   padding: 0.5rem 0;
@@ -282,4 +282,29 @@
 .messenger-direct a {
   font-size: x-large;
   color: var(--text-dark);
+}
+
+.label-discount {
+  margin-left: 16vw;
+  margin-right: 16vw;
+  border-bottom: 2px solid var(--bg-line-light);
+  margin-bottom: 5rem;
+}
+
+.label-discount p {
+  font-weight: 800;
+  color: var(--text-dark);
+}
+
+#label2 {
+  margin-top: 2rem;
+}
+
+#nike-logo {
+  position: absolute;
+  top: 20vh;
+  left: 30%;
+  z-index: -2;
+  opacity: var(--logo-opacity-light);
+  width: 45vw;
 }
