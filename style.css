@@ -87,7 +87,6 @@ header {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
-  border-radius: 10px;
   background: rgba( 255, 255, 255, 0 );
   backdrop-filter: blur( 3px );
   -webkit-backdrop-filter: blur( 3px );
@@ -393,6 +392,7 @@ footer article .support-wrapper a {
   font-weight: 600;
   transition: opacity 0.4s ease;
   cursor: pointer;
+  font-size: medium;
 }
 
 footer article .support-wrapper a:hover {
@@ -436,4 +436,8 @@ footer p {
   font-weight: 600;
   background-color: var(--bg-light-hover);
   user-select: none;
+}
+
+.pricing-container {
+  height: 100dvh;
 }

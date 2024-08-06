@@ -35,8 +35,18 @@
     display: block;
   }
 
+  header {
+    background: none;
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+  }
+
   header nav {
     display: none;
+  }
+
+  footer article .support-wrapper a {
+    font-size: small;
   }
 
   .featured-btn {
