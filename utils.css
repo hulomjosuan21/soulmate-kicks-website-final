@@ -114,6 +114,7 @@
 }
 
 .whats-new-text {
+  margin-bottom: 2rem;
   font-weight: 900;
   color: var(--text-dark);
   font-size: x-large;
@@ -242,4 +243,13 @@
   border-radius: 6px;
   color: var(--text-light-static);
   padding: 0.2rem 0.5rem;
+}
+
+.payday-text {
+  font-weight: 900;
+  color: var(--text-dark);
+  font-size: x-large;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
