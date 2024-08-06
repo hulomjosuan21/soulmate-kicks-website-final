@@ -437,7 +437,10 @@ footer article .social-wrapper a:hover {
   opacity: 0.5;
 }
 
-footer p {
+.copyright-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   font-size: small;
   text-align: center;
   padding: 0.5rem;
@@ -445,6 +448,7 @@ footer p {
   font-weight: 600;
   background-color: var(--bg-light-hover);
   user-select: none;
+  column-gap: 5vw;
 }
 
 .searchbar-wrapper {
