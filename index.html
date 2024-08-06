@@ -97,7 +97,7 @@
           </section>
           <section class="featured-img">
           <p class="besttoday-text">Best of today</p>
-            <img src="./src/shoes/jayson-tatum-2.svg" alt="" class="animate__animated animate__bounce animate__slower animate__infinite">
+            <img src="./src/shoes/jayson-tatum-2.svg" alt="" class="animate__animated animate__heartBeat animate__slower animate__infinite">
           </section>
         </div>
 
@@ -121,6 +121,7 @@
               <h1 class="item-name" data-aos="zoom-in-left">Jumpman Nike</h1>
               <p class="new-item item-price" data-aos="zoom-in-right">₱ 2,799</p>
             </div>
+            <i class="fav-small bi bi-heart"></i>
           </div>
 
           <div class="new-items">
@@ -132,6 +133,7 @@
               <h1 class="item-name" data-aos="zoom-in-left">Adidas Samba</h1>
               <p class="item-price" data-aos="zoom-in-right">₱ 2,799</p>
             </div>
+            <i class="fav-small bi bi-heart-fill"></i>
           </div>
 
           <div class="new-items">
@@ -143,6 +145,7 @@
               <h1 class="item-name" data-aos="zoom-in-left">Nike Air Max Jordan Yellow</h1>
               <p class="item-price" data-aos="zoom-in-right">₱ 2,799</p>
             </div>
+            <i class="fav-small bi bi-heart"></i>
           </div>
         </div>
 
@@ -160,6 +163,7 @@
               <h1 class="item-name" data-aos="zoom-in-left">All Lebron 20</h1>
               <p class="item-price" data-aos="zoom-in-right">from ₱ <span>2,799</span> to ₱ 1,799</p>
             </div>
+            <i class="fav-small bi bi-heart"></i>
           </div>
 
           <div class="new-items">
@@ -171,16 +175,17 @@
               <h1 class="item-name" data-aos="zoom-in-left">Precision 6</h1>
               <p class="item-price" data-aos="zoom-in-right">from ₱ <span>2,799</span> to ₱ 1,799</p>
             </div>
+            <i class="fav-small bi bi-heart"></i>
           </div>
         </div>
       </section>
     </article>
 
     <article class="about__container" id="about">
-      <h1 data-aos="zoom-in-right">About</h1>
+      <h1 data-aos="zoom-in-right"><i class="fa-solid fa-circle-info"></i> About</h1>
       <p class="about-store" data-aos="fade-up"><strong>Soulmate Kicks Bogo City Branch</strong>, your premier destination for top-quality footwear and exceptional service. Our shop offers a curated selection of stylish and comfortable shoes to meet all your needs, from everyday wear to special occasions. At Soulmate Kicks, we pride ourselves on providing a personalized shopping experience, ensuring every customer finds their perfect pair. Visit us today and discover why we are the go-to shoe store in Bogo City for both quality products and outstanding customer service.</p>
 
-      <h1 data-aos="zoom-in-left">Location</h1>
+      <h1 data-aos="zoom-in-left"><i class="fa-solid fa-map-location-dot"></i> Location</h1>
       <p data-aos="fade-up">SIM BLDG: SIM BOGO BUSINESS PARK P. RODRIGUES STREET. LA PURISIMA<br>LANDMARK: MCDONALDS DRIVE THRU, BESIDE THREE-SIXTY PHARMACY</p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d978.9658634076466!2d124.00356096952741!3d11.048862715566374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDAyJzU1LjkiTiAxMjTCsDAwJzE1LjEiRQ!5e0!3m2!1sen!2sph!4v1722731253511!5m2!1sen!2sph" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div class="wrapper" data-aos="zoom-in">
@@ -194,7 +199,7 @@
         <div class="item item8"></div>
       </div>
 
-      <h1 class="qoute" data-aos="zoom-in-right">Attack namu mga bosss!!! Lets goo!!! 🔥</h1>
+      <h1 class="qoute" data-aos="zoom-in-right"><span class="auto-type"></span></h1>
     </article>
   </main>
 
@@ -230,10 +235,17 @@
     </section>
   </footer>
 
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script type="module" src="./main.js" defer></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+    var typed = new Typed(".auto-type", {
+      strings : ["We got it all for you <3","Top Grade Quality","Attack namu mga bosss!!! Lets goo!!! 🔥"],
+      typeSpeed : 60,
+      backSpeed : 60,
+      loop : true
+    })
   </script>
 </body>
 </html>

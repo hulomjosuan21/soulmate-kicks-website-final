@@ -152,6 +152,7 @@ header nav a:hover {
 }
 
 .new-items {
+  position: relative;
   margin-top: 1rem;
   height: 18rem;
   border-radius: 24px;
@@ -204,11 +205,11 @@ header nav a:hover {
 }
 
 #featured-item2 .featured-btn {
-  background-color: #3fbb13;
+  background-color: #97beaf;
 }
 
 #featured-item2 .besttoday-text {
-  background-color: #3fbb13;
+  background-color: #97beaf;
 }
 
 .home-item__contaner hr {
@@ -217,7 +218,7 @@ header nav a:hover {
 }
 
 .about__container {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .about__container h1 {
@@ -509,8 +510,17 @@ footer article .social-wrapper a:hover {
 
 .boxes img {
   position: absolute;
-  top: -5rem;
-  width: 70%;
+  top: -6rem;
+  width: 90%;
+  rotate: 10deg;
+}
+
+.boxes img:hover {
+  rotate: 0deg;
+}
+
+.boxes img:active {
+  rotate: 0deg;
 }
 
 .boxes i {
