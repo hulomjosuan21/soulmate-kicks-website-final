@@ -19,3 +19,7 @@ document.querySelector('.close-btn').addEventListener('click', (event) => {
     overlay.style.display = 'none';
   }
 })
+
+document.getElementById('submit-btn').addEventListener('click', (event) => [
+  event.preventDefault()
+])
